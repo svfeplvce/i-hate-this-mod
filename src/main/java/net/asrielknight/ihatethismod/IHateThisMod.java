@@ -159,7 +159,7 @@ public class IHateThisMod implements ModInitializer {
 			String[] albumId = imageLinks[i].split("https://imgur.com/gallery/");
 			String newLink = "https://api.imgur.com/3/album/" + albumId[albumId.length - 1] + "/images";
 			var client = HttpClient.newHttpClient();
-			var request = HttpRequest.newBuilder().uri(new URI(newLink)).GET().header("Authorization", "Client-ID bb9db1128f2e186").build();
+			var request = HttpRequest.newBuilder().uri(new URI(newLink)).GET().header("Authorization", "Client-ID yourenotgettingmyclientid").build();
 			HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 			JSONObject responseJson = new JSONObject(response.body());
 			JSONArray responseArray = (JSONArray) responseJson.get("data");
