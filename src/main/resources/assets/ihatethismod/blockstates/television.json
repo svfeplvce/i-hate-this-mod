@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,on=false": { "model":  "ihatethismod:block/television_off" },
+    "facing=east,on=false": { "model":  "ihatethismod:block/television_off", "y": 90 },
+    "facing=south,on=false": { "model":  "ihatethismod:block/television_off", "y": 180 },
+    "facing=west,on=false": { "model":  "ihatethismod:block/television_off", "y": 270 },
+    "facing=north,on=true": { "model":  "ihatethismod:block/television_on" },
+    "facing=east,on=true": { "model":  "ihatethismod:block/television_on", "y": 90 },
+    "facing=south,on=true": { "model":  "ihatethismod:block/television_on", "y": 180 },
+    "facing=west,on=true": { "model":  "ihatethismod:block/television_on", "y": 270 }
+  }
+}

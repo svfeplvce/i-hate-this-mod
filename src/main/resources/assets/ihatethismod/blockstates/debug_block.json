@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ihatethismod:block/debug_block"
+    }
+  }
+}

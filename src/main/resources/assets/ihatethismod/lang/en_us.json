@@ -1,0 +1,15 @@
+{
+  "item.ihatethismod.debug_ingot": "Debug Ingot",
+
+  "block.ihatethismod.debug_block": "Debug Block",
+  "block.ihatethismod.television": "Television",
+
+  "item.ihatethismod.debug_sword": "Debug Sword",
+
+  "item.ihatethismod.debug_helmet": "Debug Helmet",
+  "item.ihatethismod.debug_chestplate": "Debug Chestplate",
+  "item.ihatethismod.debug_leggings": "Debug Leggings",
+  "item.ihatethismod.debug_boots": "Debug Boots",
+
+  "itemGroup.ihatethismod.ihatethismod": "I Hate This Mod"
+}
